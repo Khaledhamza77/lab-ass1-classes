@@ -51,5 +51,4 @@ void Customer::confirmReceipt(){
     for(vector<Product>::iterator it=Seller::products.begin();it!=Seller::products.end();it++){
         totalp=totalp+(((*it).get_price())*((*it).get_quantity()));
     }
-
 }

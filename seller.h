@@ -19,6 +19,6 @@ public:
     string get_name() const;
     string get_email() const;
     void Register();
-    void add_Products();
+    void add_Products(int quantity, int price, string name, string category);
 };
 #endif
